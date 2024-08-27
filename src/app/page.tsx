@@ -1,6 +1,10 @@
 
 export default function Home() {
   return (
-    <h1>Hello Next</h1>
+    <>
+    <main className="min-h-screen bg-black antialiased">
+
+    </main>
+    </>
   );
 }
