@@ -18,9 +18,12 @@ export default function FeaturedCardSection() {
   
   return (
     <div className=' mt-10 text-white flex justify-center items-center flex-col'>
-     <div className='flex flex-col gap-6 mb-10 justify-center items-center '>
-        <p className='text-purple-300 text-5xl'>FEATURED COURSES</p>
-        <p className='text-cyan-400  text-3xl italic'>Learn With the Best</p>
+     <div className='flex flex-col mb-10 justify-center items-center gap-1 sm:gap-3 md:gap-6 '>
+        <p className=' text-purple-300 text-2xl sm:text-3xl 
+        md:text-5xl'>
+          FEATURED COURSES
+          </p>
+        <p className='text-cyan-400 text-xl  italic sm:text-2xl md:text-3xl'>Learn With the Best</p>
      </div>
 
      <div className=' overflow-hidden p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-8'>
