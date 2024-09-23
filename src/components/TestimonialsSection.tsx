@@ -32,9 +32,17 @@ const Testimonials = [
 
 export default function TestimonialsSection() {
     return (
-        <div className="text-white">
+        <div className="text-white py-28 mt-10 flex flex-col w-full overflow-x-hidden justify-center items-center">
             {/* heading */}
-            <div>Melodies of Success: Voices of Our Community
+            <div className="text-2xl text-center font-bold tracking-wide my-10 text-transparent bg-clip-text italic px-4
+            sm:text-3xl  
+            md:text-4xl md:px-0"
+                style={{
+                    backgroundImage: "linear-gradient(to right, #f27fb8 40%, #FF0090 60%)"
+                }}>
+
+                Melodies of Success: Voices of Our Community
+
 
             </div>
 
