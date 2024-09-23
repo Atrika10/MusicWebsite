@@ -32,7 +32,9 @@ const Testimonials = [
 
 export default function TestimonialsSection() {
     return (
-        <div className="text-white py-28 mt-10 flex flex-col w-full overflow-x-hidden justify-center items-center">
+        <div className="text-white pt-6 pb-28 mt-28 flex flex-col w-full overflow-x-hidden justify-center items-center
+        dark:bg-black bg-white 
+        dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
             {/* heading */}
             <div className="text-2xl text-center font-bold tracking-wide my-10 text-transparent bg-clip-text italic px-4
             sm:text-3xl  
@@ -42,7 +44,6 @@ export default function TestimonialsSection() {
                 }}>
 
                 Melodies of Success: Voices of Our Community
-
 
             </div>
 
