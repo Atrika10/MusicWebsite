@@ -2,6 +2,7 @@
 import React from 'react'
 import data from '@/data/music-courses.json'
 import { BackgroundGradient } from './ui/background-gradient'
+import Link from 'next/link'
 
 interface Course{
         id: number,
@@ -17,7 +18,7 @@ export default function FeaturedCardSection() {
   const featuredCourses = data.courses.filter((course :Course) => course.isFeatured)
   
   return (
-    <div className=' mt-10 text-white flex justify-center items-center flex-col'>
+    <div className=' mt-10 pb-10 text-white flex justify-center items-center flex-col'>
      <div className='flex flex-col mb-10 justify-center items-center gap-1 sm:gap-3 md:gap-6 '>
         <p className=' text-purple-300 text-2xl sm:text-3xl 
         md:text-5xl'>
@@ -52,6 +53,12 @@ export default function FeaturedCardSection() {
         
 
      </div>
+
+     <div className='border-2 py-2 px-4 rounded-lg border-neutral-400'>
+      <Link href="/">
+      View More Courses
+      </Link>
+      </div>
     </div>
   )
 }
