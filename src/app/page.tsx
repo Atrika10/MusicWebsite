@@ -1,4 +1,5 @@
 import FeaturedCardSection from "@/components/FeaturedCardSection";
+import FeaturedWebinarSection from "@/components/FeaturedWebinarSection";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection/>
       <FeaturedCardSection/>
       <TestimonialsSection/>
+      <FeaturedWebinarSection/>
     </main>
     </>
   );
