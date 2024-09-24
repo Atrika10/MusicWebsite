@@ -1,6 +1,8 @@
 'use client'
 import React from 'react';
+import { motion } from "framer-motion";
 import { HoverEffect } from "./ui/card-hover-effect";
+import { AuroraBackground } from "./ui/aurora-background";
 
 const webinardata = [
     {
@@ -38,6 +40,18 @@ const webinardata = [
 
 export default function FeaturedWebinarSection() {
   return (
+    <div className='bg-red-800'> 
+    <AuroraBackground className='mt-0 p-0'>
+        <motion.div
+        initial={{ opacity: 0.0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.3,
+          duration: 0.8,
+          ease: "easeInOut",
+        }}
+      >
+    
     <div className='mt-5 pt-32 pb-20 px-8 flex flex-col justify-center items-center  text-white '>
         {/* for heading */}
       <div>
@@ -50,5 +64,10 @@ export default function FeaturedWebinarSection() {
         <HoverEffect items={webinardata}/>
       </div>
     </div>
+    </motion.div>
+    </AuroraBackground>
+
+    </div>
+    
   )
 }
