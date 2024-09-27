@@ -43,8 +43,13 @@ export default function FeaturedWebinarSection() {
       <div className='mt-5 pt-32 pb-20 px-8 flex flex-col justify-center items-center  text-white '>
         {/* for heading */}
         <div>
-          <p className='text-center text-2xl'>Featured Webinars </p>
-          <h2 className='text-[3rem]'>Enhance Your Musical Journey</h2>
+          <p className='text-center text-xl sm:text-2xl text-cyan-300 '>Featured Webinars </p>
+          <h2 className='
+           bg-gradient-to-r from-pink-100 to-slate-800
+          text-transparent bg-clip-text font-bold tracking-wide text-[30px] leading-[35px] text-center mt-3 
+          sm:text-[3rem] sm:leading-normal md:mt-0'>
+            Enhance Your Musical Journey
+            </h2>
         </div>
 
         {/* content box */}
