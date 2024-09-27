@@ -37,13 +37,14 @@ const people = [
   
 export default function TeamMembers() {
   return (
-    <div className='text-white mt-10 pt-10 pb-16' >
+    <div className='text-white mt-10 pt-10 pb-16
+    px-4 md:px-2' >
         <div className='flex flex-col justify-center items-center'>
 
         <div
-        className='text-6xl py-5'
+        className='text-4xl sm:text-6xl text-center py-5'
         >Introducing Our Instructors</div>
-        <div className='text-xl pb-12'
+        <div className='text-base sm:text-xl pb-12 text-center'
         >Guiding Tomorrow’s Stars with Dedication and Passion</div>
         
         </div>
